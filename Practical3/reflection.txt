@@ -1,0 +1,4 @@
+It goes well, and I finish the task (maybe).
+However, what does 'fork' mean? Does it mean create a copy for our own or it is just a shared document?
+Moreover, after I copy and paste the document called 'index.md', the content became simpler.
+Does that mean I lost my setting in the theme? 
