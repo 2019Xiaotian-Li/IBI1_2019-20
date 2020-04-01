@@ -26,7 +26,7 @@ for line in xfile:
     else:
         s = s + line 
         length = length + len(line)
-gene.extend(s)
+gene.append(s)
 
 seq = input ('please input the gene name')
 l = int(input('please input the gene length'))
