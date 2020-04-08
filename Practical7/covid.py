@@ -39,6 +39,8 @@ world_median = np.median (world_new_cases)
 print (world_mean)
 print (world_median)
 # Part 5
+plt.title('new cases in the world')
+plt.ylabel('new cases')
 plt.boxplot(world_new_cases,
             showcaps = 'world new cases',
             vert = True,
@@ -49,9 +51,15 @@ plt.boxplot(world_new_cases,
             notch = False)
 plt.show()
 # Part 6
+plt.title('new cases in the world')
+plt.xlabel('new cases')
+plt.ylabel('date')
 plt.plot(world_dates, world_new_cases, 'b+')
 plt.xticks(world_dates[0:len(world_dates):4],rotation=-90)
 plt.show()
+plt.title('new deaths in the world')
+plt.xlabel('new deaths')
+plt.ylabel('dates')
 plt.plot(world_dates, world_new_deaths, 'b+')
 plt.xticks(world_dates[0:len(world_dates):4],rotation=-90)
 plt.show()
@@ -65,8 +73,9 @@ for i in range(len(df)):
         China_dates.append (covid_data.iloc[i,0])
         China_new_cases.append (covid_data.iloc[i,2])
         China_total_cases.append(covid_data.iloc[i,4])
+plt.title('new cases in China')
 plt.boxplot(China_new_cases,
-            showcaps = 'world new cases',
+            showcaps = 'China new cases',
             vert = True,
             meanline = True,
             whis = 1.5,
@@ -75,8 +84,14 @@ plt.boxplot(China_new_cases,
             notch = False)
 plt.show()
 plt.plot(China_dates, China_new_cases, 'b+')
-plt.xticks(China_dates[0:len(world_dates):6],rotation=-90)
+plt.title('new cases in China')
+plt.xlabel('new cases')
+plt.ylabel('dates')
+plt.xticks(China_dates[0:len(China_dates):6],rotation=-90)
 plt.show()
+plt.title('total cases in China')
+plt.xlabel('total cases')
+plt.ylabel('dates')
 plt.plot(China_dates, China_total_cases, 'b+')
-plt.xticks(China_dates[0:len(world_dates):6],rotation=-90)
+plt.xticks(China_dates[0:len(China_dates):6],rotation=-90)
 plt.show()
