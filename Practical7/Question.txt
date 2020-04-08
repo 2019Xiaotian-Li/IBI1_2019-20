@@ -1,0 +1,6 @@
+Question name: How have new cases and total cases developed over time in China?
+Line number: 60~82
+Result discussion: 
+The development of the new cases in China was slow at first in January. Then it grew rather rapidly in February. Finally, in March, it slowed down again and gradually there are no new cases in China.
+The development of the total cases in China was similar to 'S' shape, which means in China it grew gently at first and rapidly in the interim part. Eventually, the speed slowed down again.
+Both of them show that it will welcome its end in China in a short time.
