@@ -1,0 +1,4 @@
+The amino acid sequence in human and mouse have high similarity. 
+The similarity between human's and mouse's sequence is 89.64%. 
+The similarity between human's and random sequence is 5.41%.
+The similarity between mouse's and random sequence is 5.86%.
