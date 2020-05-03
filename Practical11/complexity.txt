@@ -1,0 +1,4 @@
+The complexity of the script is (n!)^2.
+Because for a n-digit sequence, there are 6*n*(n-1)/2 (n-1)-digit sequence. As a result, the times it operated is  [6^(n-1)] * n*[(n-1)^2]*[(n-2)^2]*бнбн*1/[2^(n-1)], which means the total time it operated is [3^(n-1)]*[(n!)^2]/n.
+So, O(n) = (n!)^2
+It is not efficient.
