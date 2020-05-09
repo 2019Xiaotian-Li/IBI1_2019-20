@@ -1,0 +1,2 @@
+Honestly speaking, the task is a little bit difficult. (I discuss the question with two other students and it still take about 5 hours).
+The most important thing maybe is the usage of two-dimensional array. It can be rather important in computer programming.
