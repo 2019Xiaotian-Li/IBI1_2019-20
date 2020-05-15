@@ -1,0 +1,4 @@
+
+In these practicals, I have acquired deeper understanding on python than only listen to lectures.
+24 points is the most difficult task for me, where I learnt to search online resources for help.
+In several practicals, the operand can be so high that I learnt to optimize the algorithm.
